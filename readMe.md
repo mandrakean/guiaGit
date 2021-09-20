@@ -10,7 +10,7 @@ git commit -m "mensagem" = assim vc commita o que tá staged.
 
 git remote add origin URL = adicionando para o github, vc faz isso após criar o repo lá no github.
 
-git push origin main = manda pro github
+git push origin BRANCH = manda pro github, usar o nome da branch em questão.
 
 git checkout -b "nomeDaNovaBranch" = para mudar para uma nova branch
 
