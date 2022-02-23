@@ -1,18 +1,21 @@
 Esse projeto ensina a usar o Git.
 
-git init = para criar a estrutura git para o projeto
+Primeiro cadastre email e senha = git config user.name <name>  /  git config usar.email <email> 
 
-git add file.ext = adiciona algum arquivo para ser "vigiado" (staged)
+para criar um novo repositório = git init /* se necessário em seguida especifique o diretório */
 
-git add . = adiciona todos os arquivos da pasta para o staged.
+Se o repositório já existe, clone ele para sua máquina = git clone <repo>
 
-git commit -m "mensagem" = assim vc commita o que tá staged.
+adiciona algum arquivo para ser "vigiado" (staged) = git add <archive or directory>
 
-git remote add origin URL = adicionando para o github
+Ou adicione todos os arquivos da pasta para o staged = git add .
 
-git checkout main = mudar para a branch main
-git remote add origin URL = adicionando para o github, vc faz isso após criar o repo lá no github.
+assim vc commita o que tá staged. = git commit -m "mensagem" 
 
-git push origin BRANCH = manda pro github, usar o nome da branch em questão.
+adicionando para o github, vc faz isso após criar o repo lá no github. = git remote add origin <URL>
 
-git checkout -b "nomeDaNovaBranch" = para mudar para uma nova branch
+mudar para a branch main = git checkout <main>
+
+manda pro github, usar o nome da branch em questão. = git push origin <BRANCH>
+
+para mudar para uma nova branch = git checkout -b <nomeDaNovaBranch>
